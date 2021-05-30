@@ -1,0 +1,9 @@
+CRITICAL - 2021-04-19 22:56:09 --> Invalid file: profil/index.php
+#0 /home/bean/Documents/Programs/tkalkhairiyah/vendor/codeigniter4/framework/system/View/View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /home/bean/Documents/Programs/tkalkhairiyah/vendor/codeigniter4/framework/system/Common.php(1217): CodeIgniter\View\View->render()
+#2 /home/bean/Documents/Programs/tkalkhairiyah/app/Controllers/Profil.php(11): view()
+#3 /home/bean/Documents/Programs/tkalkhairiyah/vendor/codeigniter4/framework/system/CodeIgniter.php(936): App\Controllers\Profil->index()
+#4 /home/bean/Documents/Programs/tkalkhairiyah/vendor/codeigniter4/framework/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController()
+#5 /home/bean/Documents/Programs/tkalkhairiyah/vendor/codeigniter4/framework/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/bean/Documents/Programs/tkalkhairiyah/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}

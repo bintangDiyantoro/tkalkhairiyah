@@ -1,4 +1,143 @@
+html::-webkit-scrollbar {
+    display: none;
+}
+
+html {
+    width: 99%;
+}
+
 html,
 body {
     color: rgb(0, 87, 46);
+    background-color: rgb(241, 255, 249);
 }
+
+h1,
+.desc-col {
+    transition-duration: .3s;
+}
+
+a .card {
+    width: 240px;
+    height: 280px;
+    overflow: hidden;
+    margin: 15px;
+    background-color: rgb(210, 255, 219);
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.4) 4px 4px 4px;
+    transition-duration: 0.4s;
+}
+
+a .card:hover {
+    background-color: rgb(210, 255, 219);
+    box-shadow: rgba(0, 0, 0, 0.4) 10px 6px 7px;
+}
+
+a .card img {
+    height: 150px;
+}
+
+.my-card a {
+    width: 240px;
+    opacity: .7;
+    color: rgb(0, 87, 46);
+    text-decoration-line: none!important;
+    transition-duration: 0.4s;
+}
+
+.my-card a:hover {
+    opacity: 1;
+    transform: scale(1.1, 1.1);
+    z-index: 1;
+}
+
+.img-thumbnail {
+    max-width: 300px;
+    transition-duration: 0.5s;
+}
+
+.img-thumbnail:hover {
+    transform: scale(1.05, 1.05);
+    z-index: 1;
+    box-shadow: rgba(0, 0, 0, 0.4) 4px 4px 4px;
+    cursor: pointer;
+}
+
+.myfooter {
+    background-color: rgb(192, 255, 227);
+    margin: none;
+    padding: 30px 40px 0 40px;
+    width: 101%;
+}
+
+.navbar {
+    width: 101%!important;
+}
+
+.desc-col {
+    width: 280px;
+}
+
+.main-content {
+    /* height: 100%; */
+    padding: 46px;
+    /* background-color: bisque; */
+}
+
+.footer-col {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-col ul li a {
+    text-decoration: none;
+    color: rgb(0, 87, 46);
+    transition-duration: .3s;
+}
+
+.footer-col ul li a:hover {
+    color: rgb(0, 208, 111);
+}
+
+.footer-col ul li {
+    transition-duration: .3s;
+}
+
+.footer-col ul li:hover,
+h1:hover,
+.desc-col:hover {
+    color: rgb(0, 208, 111);
+}
+
+.my-ul {
+    list-style: none;
+}
+
+.right-float {
+    position: fixed;
+    z-index: 2;
+    right: 0px;
+    top: 330px;
+    border-radius: 15px 0 0 15px;
+    overflow: hidden;
+}
+
+.right-float-button {
+    transition-duration: .6s;
+    margin-right: -196px;
+    /* color: rgb(210, 255, 219); */
+    color: rgb(55, 126, 55);
+    padding: 5px;
+    background-color: rgb(55, 126, 55);
+}
+
+.right-float-button:hover {
+    margin-right: 0;
+    color: rgb(210, 255, 219);
+}
+
+
+/* .footer-col:nth-child(2n-1) {
+    background-color: azure;
+} */
