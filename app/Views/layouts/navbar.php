@@ -34,8 +34,8 @@
  <a href="https://ypialkhairiyahbanyuwangi.com">
      <div class="right-float">
          <div class="right-float-button">
-         <img src="<?= base_url('img/logosd.png') ?>" alt="" width="45px">
-         SDI Al-Khairiyah Banyuwangi
+             <img src="<?= base_url('img/logosd.png') ?>" alt="" width="45px">
+             SDI Al-Khairiyah Banyuwangi
          </div>
      </div>
  </a>

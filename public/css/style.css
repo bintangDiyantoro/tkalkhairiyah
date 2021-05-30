@@ -86,8 +86,8 @@ a .card img {
 
 .footer-col {
     padding: 20px;
-    display: flex;
-    justify-content: center;
+    /* display: flex;
+    justify-content: center; */
 }
 
 .footer-col ul li a {
@@ -141,3 +141,9 @@ h1:hover,
 /* .footer-col:nth-child(2n-1) {
     background-color: azure;
 } */
+
+@media(max-width:470px) {
+    .navbar-brand {
+        font-size: smaller;
+    }
+}
