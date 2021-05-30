@@ -146,4 +146,10 @@ h1:hover,
     .navbar-brand {
         font-size: smaller;
     }
+    .right-float {
+        top: 480px;
+    }
+    .right-float-button {
+        margin-right: -210px;
+    }
 }
