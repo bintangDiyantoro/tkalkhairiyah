@@ -16,17 +16,17 @@
 <?php foreach ($galeri as $g) : ?>
     <div class="modal fade" id="staticBackdrop<?= $g["id"] ?>" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel">
         <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content d-flex justify-content-center" style="height:600px;width: auto;">
-                <div class="modal-header">
+            <div class="modal-content d-flex justify-content-center" style="display:inline-block;position:absolute;height:100%;border: none;background-color: transparent;">
+                <div class="">
                     <!-- <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5> -->
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close" style="float: right;"></button>
                 </div>
                 <div class="modal-body d-flex justify-content-center">
-                <img src="http://localhost/<?= $g["file"] ?>" class="rounded" style="display: block;max-height: 100%;max-width: 100%;" alt="..." data-bs-dismiss="modal">
+                    <img src="http://localhost/<?= $g["file"] ?>" class="rounded" style="position:absolute;display:block;height: 100%;" alt="..." data-bs-dismiss="modal">
                 </div>
-                <div class="modal-footer">
+                <!-- <div class="modal-footer">
                     <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Tutup</button>
-                </div>
+                </div> -->
             </div>
         </div>
     </div>
